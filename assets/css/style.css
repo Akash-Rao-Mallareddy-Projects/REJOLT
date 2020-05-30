@@ -64,7 +64,7 @@ parallax
 
 .text{
  position: absolute;
-  top: 300px;
+ top: 300px;
   color: #fff;
   margin-bottom: 20px;
   font-size: 48px;
@@ -375,11 +375,11 @@ section {
   background-color: #f8f9fa;
 }
 
-.section-title {
+.section-title, .section-title-1 {
   padding-bottom: 40px;
 }
 
-.section-title h2 {
+.section-title, .section-title-1 h2 {
   font-size: 38px;
   font-weight: 500;
   padding: 0;
@@ -397,6 +397,12 @@ section {
   height: 2px;
   display: inline-block;
   background: #e6636a;
+  margin: 4px 10px;
+}
+.section-title-1 h2::after {
+  content: "";
+  width: 120px;
+  display: inline-block;
   margin: 4px 10px;
 }
 
