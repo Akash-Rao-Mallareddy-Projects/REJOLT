@@ -1,3 +1,4 @@
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -15,6 +16,8 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -48,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 50px;
+  max-height: 40px;
 }
 
 @media (max-width: 992px) {
@@ -56,129 +59,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 12px 0;
   }
 }
-/* Mobile Navigation */
-.mobile-nav-toggle {
-  position: fixed;
-  right: 15px;
-  top: 15px;
-  z-index: 9998;
-  border: 0;
-  background: none;
-  font-size: 24px;
-  transition: all 0.4s;
-  outline: none !important;
-  line-height: 1;
-  cursor: pointer;
-  text-align: right;
-}
-
-.mobile-nav-toggle i {
-  color: #556270;
-}
-
-.mobile-nav {
-  position: fixed;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  z-index: 9999;
-  overflow-y: auto;
-  background: #fff;
-  transition: ease-in-out 0.2s;
-  opacity: 0;
-  visibility: hidden;
-  border-radius: 10px;
-  padding: 10px 0;
-}
-
-.mobile-nav * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.mobile-nav a {
-  display: block;
-  position: relative;
-  color: #556270;
-  padding: 10px 20px;
-  font-weight: 500;
-  outline: none;
-}
-
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #d9232d;
-  text-decoration: none;
-}
-
-.mobile-nav .drop-down > a:after {
-  content: "\ea99";
-  font-family: IcoFont;
-  padding-left: 10px;
-  position: absolute;
-  right: 15px;
-}
-
-.mobile-nav .active.drop-down > a:after {
-  content: "\eaa1";
-}
-
-.mobile-nav .drop-down > a {
-  padding-right: 35px;
-}
-
-.mobile-nav .drop-down ul {
-  display: none;
-  overflow: hidden;
-}
-
-.mobile-nav .drop-down li {
-  padding-left: 20px;
-}
-
-.mobile-nav-overly {
-  width: 100%;
-  height: 100%;
-  z-index: 9997;
-  top: 0;
-  left: 0;
-  position: fixed;
-  background: rgba(63, 73, 83, 0.6);
-  overflow: hidden;
-  display: none;
-  transition: ease-in-out 0.2s;
-}
-
-.mobile-nav-active {
-  overflow: hidden;
-}
-
-.mobile-nav-active .mobile-nav {
-  opacity: 1;
-  visibility: visible;
-}
-
-.mobile-nav-active .mobile-nav-toggle i {
-  color: #fff;
-}
-/*---------------------------------------------------------------
-parallax
-----------------------------------------------------------------
-*/
-
-
-.text{
- position: absolute;
- top: 300px;
-  color: #fff;
-  margin-bottom: 20px;
-  font-size: 48px;
-  font-weight: 700;
-  text-align: center;
-  left: 20%;
-}
-
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -291,6 +171,137 @@ parallax
   }
 }
 
+/* Get Startet Button */
+/*.get-started-btn {
+  margin-left: 25px;
+  background: #d9232d;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 30px 9px 30px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.get-started-btn:hover {
+  background: #e1444d;
+  color: #fff;
+}
+*/
+@media (max-width: 768px) {
+  .get-started-btn {
+    margin: 0 48px 0 0;
+    padding: 6px 18px;
+  }
+}
+
+/* Mobile Navigation */
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  line-height: 1;
+  cursor: pointer;
+  text-align: right;
+}
+
+.mobile-nav-toggle i {
+  color: #556270;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  z-index: 9999;
+  overflow-y: auto;
+  background: #fff;
+  transition: ease-in-out 0.2s;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.mobile-nav * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mobile-nav a {
+  display: block;
+  position: relative;
+  color: #556270;
+  padding: 10px 20px;
+  font-weight: 500;
+  outline: none;
+}
+
+.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+  color: #d9232d;
+  text-decoration: none;
+}
+
+.mobile-nav .drop-down > a:after {
+  content: "\ea99";
+  font-family: IcoFont;
+  padding-left: 10px;
+  position: absolute;
+  right: 15px;
+}
+
+.mobile-nav .active.drop-down > a:after {
+  content: "\eaa1";
+}
+
+.mobile-nav .drop-down > a {
+  padding-right: 35px;
+}
+
+.mobile-nav .drop-down ul {
+  display: none;
+  overflow: hidden;
+}
+
+.mobile-nav .drop-down li {
+  padding-left: 20px;
+}
+
+.mobile-nav-overly {
+  width: 100%;
+  height: 100%;
+  z-index: 9997;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(63, 73, 83, 0.6);
+  overflow: hidden;
+  display: none;
+  transition: ease-in-out 0.2s;
+}
+
+.mobile-nav-active {
+  overflow: hidden;
+}
+
+.mobile-nav-active .mobile-nav {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-nav-active .mobile-nav-toggle i {
+  color: #fff;
+}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -305,7 +316,7 @@ parallax
 
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
   position: absolute;
-  top: 20px;
+  top: 0;
   right: 0;
   left: 0;
   bottom: 0;
@@ -474,19 +485,19 @@ parallax
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 .section-bg, .services .icon-box {
   background-color: #f8f9fa;
 }
 
-.section-title, .section-title-1 {
+.section-title {
   padding-bottom: 40px;
 }
 
 .section-title h2 {
-  font-size: 38px;
+  font-size: 40px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -495,25 +506,119 @@ section {
   text-transform: uppercase;
   color: #aaaaaa;
   font-family: "Poppins", sans-serif;
+  display: inline;
+  line-height: 40px;
 }
 
 .section-title h2::after {
   content: "";
   width: 120px;
-  height: 2px;
+  height: 1px;
+  display: inline-block;
+  background: #e6636a;
+  margin: 4px 10px;
+}
+.section-title-1 h2 {
+  font-size: 40px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+  display: inline;
+  line-height: 40px;
+}
+
+.section-title-1 h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
   display: inline-block;
   background: #e6636a;
   margin: 4px 10px;
 }
 
 
+.section-title-1 p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #556270;
+}
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+  padding: 18px 0;
+  background: #f8f9fa;
+  min-height: 40px;
+  margin-top: 86px;
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs {
+    margin-top: 58px;
+  }
+}
+
+.breadcrumbs h2 {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.breadcrumbs ol li + li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li + li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #6b7b8d;
+  content: "/";
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs {
+    margin-top: 58px;
+  }
+  .breadcrumbs .d-flex {
+    display: block !important;
+  }
+  .breadcrumbs h2 {
+    margin-bottom: 10px;
+  }
+  .breadcrumbs ol {
+    display: block;
+  }
+  .breadcrumbs ol li {
+    display: inline-block;
+  }
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-/*.about .content h2 {
+.about .content h2 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 1px;
+  line-height: 60px;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
@@ -522,7 +627,7 @@ section {
   font-weight: 500;
   line-height: 32px;
   font-size: 24px;
-}*/
+}
 
 .about .content ul {
   list-style: none;
@@ -536,7 +641,7 @@ section {
 
 .about .content ul i {
   left: 0;
-  top: 3px;
+  top: 7px;
   position: absolute;
   font-size: 20px;
   color: #d9232d;
@@ -546,3 +651,118 @@ section {
   margin-bottom: 0;
 }
 
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.clients img {
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
+}
+
+.clients img:hover {
+  -webkit-filter: none;
+  filter: none;
+  transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+  .clients img {
+    max-width: 40%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box {
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.services .icon-box i {
+  float: left;
+  color: #d9232d;
+  font-size: 40px;
+}
+
+.services .icon-box h4 {
+  margin-left: 70px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .icon-box h4 a {
+  color: #556270;
+  transition: 0.3s;
+}
+
+.services .icon-box p {
+  margin-left: 70px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.services .icon-box:hover h4 a {
+  color: #d9232d;
+}
+
+
+
+
+@media (max-width: 992px) {
+  .features .nav-link {
+    border: 0;
+    padding: 15px;
+  }
+  .features .nav-link.active {
+    color: #fff;
+    background: #d9232d;
+  }
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*---------------------------------------------------------------
+parallax
+----------------------------------------------------------------
+*/
+
+
+.text{
+ position: absolute;
+ top: 300px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  left: 20%;
+}
