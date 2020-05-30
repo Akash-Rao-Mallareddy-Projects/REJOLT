@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>IEEE Computer Society Chapter</title>
+	<title>CS</title>
 	<meta charset="utf-8">
   	<meta content="width=device-width, initial-scale=1.0" name="viewport">
   	<meta content="" name="descriptison">
@@ -20,7 +20,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-	<link href="assets/vendor/remixicon/animate.min.css" rel="stylesheet">
+     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/animate.min.css" rel="stylesheet">
 
 
   	<!-- Template Main CSS File -->
@@ -29,6 +30,31 @@
   	<!-- =======================================================
   	* Author: pranaykashyap@ieee.org.com
   	======================================================== -->
+
+    <style>
+        .parallax {
+  /* The image used */
+  /*background: url("assets/img/slide/slide-1.jpg");*/
+  background:
+  linear-gradient(
+      rgba(20, 20, 20, 0.6), 
+      rgba(20, 20, 20, 0.6)
+    ),
+    url(assets/img/slide/slide-1.jpg);
+/*  background-color: rgba(50, 50, 50, 0.9);
+*/
+  /* Set a specific height */
+  min-height: 700px; 
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+/*  background-position: center;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+</style>
 </head>
 <body>
 	<header id="header" class="fixed-top ">
@@ -63,23 +89,25 @@
         	</nav><!-- .nav-menu -->
     	</div>
   	</header><!-- End Header -->
-  	<section id="hero">
+
+    <div class="parallax"><h2 class="animate__animated animate__fadeInDown text">Welcome to <br><span>IEEE Computer Society Chapter</span></h2></div>
+<!--   	<section id="hero">
     	<div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 	    	<ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
       		<div class="carousel-inner" role="listbox">
-	        <!-- Slide 1 -->
-        		<div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+	        Slide 1 -->
+        		<!-- <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
           			<div class="carousel-container">
             			<div class="container">
-              				<h2 class="animate__animated animate__fadeInDown">Welcome to <br><span>IEEE Computer Society Chapter</span></h2>
+              				<h2 class="animate__animated animate__fadeInDown">Welcome to <br><span>IEEE Computer Society Chapter</span></h2> -->
               				<!-- <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
               				<a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> -->
-            			</div>
+            			<!-- </div>
           			</div>
         		</div>
       		</div>
     	</div>
-  	</section><!-- End Hero -->
+  	</section>End Hero -->
   	<main id="main">
   		<!-- ======= About Section ======= -->
   		<section id="about" class="about">
