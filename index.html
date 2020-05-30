@@ -1,620 +1,169 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js no-svg">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>IEEE CS Awards | IEEE CS HYD Section</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<title>CS</title>
+	<meta charset="utf-8">
+  	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+  	<meta content="" name="descriptison">
+  	<meta content="" name="keywords">
 
-    <style type="text/css">
-        body{
-            font-family: Poppins;
-            width: 100%;
-            overflow-x: hidden;
-        }
-        h1,h2,h3{
-            font-family: Poppins;
-        }
-        a{
-            color: blue;
-        }
-        .csa{
-            background-color: #f80036; 
-            color: white;
-            width: 100%;
-        }
-        .panel-body{
-            font-size: 16px;
-        }
-        .panel-heading{
-            background-color: #f80036;
-            color: white;
-        }
-        .panel-heading h3{
-            font-weight: bold;
-            font-size: 30px;
-        }
-        #deadline{
-            font-weight: bold;
-            color: red;
-            font-size: 16px;
-            margin-top: 20px;
-        }
-        .panel{
-            border-color: #f80036;
-            transition: transform .4s;
-            margin-bottom: 2rem;
-        }
-        .panel:hover{
-            box-shadow: 10px 10px 10px black;
-            transform: scale(1.05);
-        }
-        @media screen and (max-width: 450px) {
-           .panel {
-                margin-bottom: 3rem;
-                width: 100%;
-            }
-            .panel-heading{
-                font-size: 20px;
-            }
-            .img{
-                width: 100%;
-                margin-top: 30px;
-            }
-            .csa{
-                height: 20rem;
-            }
-            .hed1{
-                padding-top: 30px;
-                width: 100%;
-            }
-            .hed2{
-                padding-top: 20px;
-                width: 100%;
+  	<!-- Favicons -->
+  	<link href="assets/img/favicon.png" rel="icon">
+  	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-            }
-            .hed3{
-                padding-top: 30px;
-                text-align: center;
-                width: 100%;
-            }
-            .bod1{
-                padding-top: 30px;
-                text-align: center;
-                margin-left: 10px;
-                margin-right: 10px;
-                /*padding-right: 4px;
-                width: 100%;*/
-            }
-            .bod2{
-                padding-top: 30px;
-                text-align: center;
-                margin-left: 10px;
-                margin-right: 10px;
-            }
-            .bod3{
-                padding-top: 30px;
-                text-align: center;
-                margin-left: 10px;
-                margin-right: 10px;
-               /* padding-right: 4px;*/
-            }
-            .box1{
-                width: 100%;
+  	<!-- Google Fonts -->
+  	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-            }
-        }
-        @media screen and (min-width: 700px) {
-            .img{
-                width: 100%;
-                height: 300px;
-                margin-top: 50px;
-                position: relative;
+  	<!-- Vendor CSS Files -->
+  	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  	<link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  	<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  	<link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  	<link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-            }
-            .csa{
-                height: 20rem;
-                
-            }
-            .hed1{
-                width: 40%;
-                float: left;
-                padding-top: 80px;
+  	<!-- Template Main CSS File -->
+  	<link href="assets/css/style.css" rel="stylesheet">
 
-            }
-            .hed2{
-                width: 40%;
-                float: right;
-                padding-top: 70px;
-
-            }
-            .hed3{
-                width: 45%;
-                float: left;
-                padding-top: 60px;
-
-            }
-            .bod1{
-                width: 59%;
-                float: right;
-                padding-top: 100px;
-                padding-left: 50px;
-                padding-right: 50px;
-
-            }
-            .bod2{
-                width: 59%;
-                float: left;
-                padding-top: 50px;
-                padding-left: 50px;
-                padding-right: 50px;
-
-            }
-            .bod3{
-                width: 54%;
-                float: right;
-                padding-top: 70px;
-                padding-left: 20px;
-                padding-right: 20px;
-            }
-            .box1{
-                height: 200px;
-                width: 100%;
-            }
-            .panel-heading{
-                font-size: 30px;
-            }
-        }
-    </style>
+  	<!-- =======================================================
+  	* Author: pranaykashyap@ieee.org.com
+  	======================================================== -->
 </head>
-
 <body>
-    
-    <div class="csa">
-        <div class="hed1" >
-            <center><h1><b>IEEE Computer Society Awards</b></h1></center>
-        </div>
-        <div class="bod1">
-            <p>The IEEE Computer Society recognizes outstanding work by its members who enhance the field through technical achievement and service to the computer profession and society.</p>
-        </div>    
-    </div>
+	<header id="header" class="fixed-top ">
+	    <div class="container d-flex align-items-center">
+    		<a href="index.html" class="logo">
+    			<img src="assets/img/logo.png" alt="" class="img-fluid">
+	    	</a>
+    		<nav class="nav-menu d-none d-lg-block">
+    			<ul>
+          			<li class="active"><a href="index.html">Home</a></li>
+          			<li class="drop-down"><a href="#">About</a>
+            			<ul>
+              				<li><a href="about.html">About Us</a></li>
+	              			<li><a href="team.html">Team</a></li>
+    	          			<li><a href="testimonials.html">Testimonials</a></li>
+	          				 <!--    <li class="drop-down"><a href="#">Deep Drop Down</a>
+    	            		<ul>
+        	          		<li><a href="#">Deep Drop Down 1</a></li>
+            	      		<li><a href="#">Deep Drop Down 2</a></li>
+	            	        <li><a href="#">Deep Drop Down 3</a></li>
+       	            	    <li><a href="#">Deep Drop Down 4</a></li>
+                        	<li><a href="#">Deep Drop Down 5</a></li>
+	                       </ul>
+    	                   </li> -->
+        	            </ul>
+          			</li>
+          			<li><a href="services.html">Competitions</a></li>
+        	  	  	<li><a href="services.html">Events</a></li>
+	          		<li><a href="blog.html">Gallery</a></li>
+    	      		<li><a href="contact.html">Contact</a></li>
+        		</ul>
+        	</nav><!-- .nav-menu -->
+    	</div>
+  	</header><!-- End Header -->
+  	<section id="hero">
+    	<div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+	    	<ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+      		<div class="carousel-inner" role="listbox">
+	        <!-- Slide 1 -->
+        		<div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+          			<div class="carousel-container">
+            			<div class="container">
+              				<h2 class="animate__animated animate__fadeInDown">Welcome to <br><span>IEEE Computer Society Chapter</span></h2>
+              				<!-- <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              				<a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> -->
+            			</div>
+          			</div>
+        		</div>
+      		</div>
+    	</div>
+  	</section><!-- End Hero -->
+  	<main id="main">
+  		<!-- ======= About Section ======= -->
+  		<section id="about" class="about">
+            <div class="container">
+  	     	    <div class="section-title">
+                    <h2>IEEE</h2>
+                </div>
+	            <div class="row content">
+    	      	    <div class="col">
+                        <p>IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences, technology standards, and professional and educational activities.The following information provides an overview of IEEE offerings and services.</p>
+                        <ul>
+                            <li>
+                                <i class="ri-check-double-line"></i>More than 419,000 members in more than 160 countries, more than 50 percent of whom are from outside the United States.
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>More than 124,000 Student members.
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>342 Sections in ten geographic Regions worldwide.
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>1,834 Chapters that unite local members with similar technical interests.
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>3,422 Student Branches at colleges and universities in over 100 countries.
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>2,600 Student Branch chapters of IEEE technical societies.
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>568 affinity groups; IEEE affinity groups are non-technical sub-units of one or more Sections or a Council. The affinity group patent entities are the IEEE-USA Consultants' Network, Young Professionals (YP), Women in Engineering (WIE), Life Members (LM), and IEEE Entrepreneurship.
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>39 technical Societies and seven technical councils representing the wide range of IEEE technical interests.
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>More than 5 million documents in the IEEE Xplore® digital library, with more than 12 million downloads each month.
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>Has more than 1,800 conferences in IEEE Xplore.
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>Has over 1,200 active standards and more than 650 standards under development.
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>Publishes approximately 200 transactions, journals, and magazines.
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>Sponsors more than 1,900 conferences in 103 countries.
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>Partnering with more than 1,400 non-IEEE entities globally.
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>Attracting more than 547,000 conference attendees.
+                            </li>
+                            <li>
+                                <i class="ri-check-double-line"></i>Publishing more than 1,800 conference proceedings via IEEE Xplore.
+                            </li>
+                            <br>
+                            <p>*Data current as of 31 December 2019. This information is updated annually.</p>
+                        </ul>
+	          	    </div>
+        	    </div>
+      	    </div>
+    	</section>
+        <section id="about" class="about">
+    	   <div class="container">
+    	       <div class="section-title">
+                   <h2>IEEE Computer Society</h2>
+                </div>
+                <div class="row content">
+                    <div class="col-lg-7">
+                        <p>IEEE thanks its members for their support during these challenging times. We provide many tools to support our membership through virtual conferences and meetings, online collaboration tools, publishing impactful cutting-edge research, virtual educational resources, and more.  </p>
+                    </div>
+                    <div class="col pt-lg-4">
+                        <ul>
+                            <li><i class="ri-check-double-line"></i><a href="https://www.computer.org/about/computer-society-and-covid-19">COVID-19 Resources</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End About Section -->
+    </main>
 
-    <br><br>
-    
-   
-        <div>
-            <div class="hed2">
-                <center><h1>Eligibility</h1></center>
-            </div>
-            <div class="bod2">
-                <p>Franchised (voting) members of the IEEE Computer Society Board of Governors are not eligible to nominate, endorse, or receive any major named Society awards, other than service award certificates. The franchised  members of the IEEE Computer Society Board of Governors are the society president, president-elect, first and second vice presidents, the immediate past president, and the twenty-one elected members of the board.</p>
-            </div>
-        </div>
-
-        <img src="awards.jpg" class="img" data-aos="fade" data-aos-duration="1000">
-        <!-- <img src="{{ url_for('static', filename = 'awards.jpg') }}" class="img"> -->
-            <br><br>
-        <div class="box1">
-            <div class="hed3" data-aos="fade-right" data-aos-duration="1000" >
-                <center><h2>Computer Society Student Scholarships and Awards</h2></center>
-            </div>
-            <div data-aos="fade-left" class="bod3" data-aos-duration="1000" >
-                <p>Each year, the IEEE Computer Society offers scholarships and awards to students of computer science and engineering. Submit a nomination for any of these programs below.</p>
-            </div>
-        </div>
-       
-        <br><br>
-        <div class="container">
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Richard E. Merwin Student Scholarship (Spring)</b>
-                </center>
-            </div>
-            <div class="panel-body"><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/home/158">Apply now . . . . . .</a>
-                <center>
-                    <!-- <p id="deadline">Deadline: 6 April - 11:59 PM EDT</p> -->
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Richard E. Merwin Student Scholarship (Fall)</b>
-                </center>
-            </div>
-            <div class="panel-body"><br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/home/133">Apply now . . . . . .</a>
-                <center>
-                    <!-- <p id="deadline">Deadline: 6 April - 11:59 PM EDT</p> -->
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Lance Stafford Larson Student Writing Award</b>
-                </center>
-            </div>
-            <div class="panel-body"><br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/home/132">Apply now . . . . . .</a>
-                <center>
-                    <!-- <p id="deadline">Deadline: 6 April - 11:59 PM EDT</p> -->
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Upsilon Pi Epsilon Honor Society Award</b>
-                </center>
-            </div>
-            <div class="panel-body"><br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/home/130">Apply now . . . . . .</a>
-                <center>
-                    <!-- <p id="deadline">Deadline: 6 April - 11:59 PM EDT</p> -->
-                </center>
-            </div>
-        </div>
-
-        <center><h2><b>IEEE Computer Society Major Awards</b></h2><br></center>
-
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Eckert-Mauchly Award</b>
-                </center>
-            </div>
-            <div class="panel-body">A certificate and $5,000 are awarded jointly by the ACM and the Computer Society for outstanding contributions to the field of computer and digital systems architecture.<br><br>
-                <a href="https://ieee.secure-platform.com/a/organizations/main/submissions/localroundclosed?localRoundId=240">Apply now . . . . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 6 April - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>B. Ramakrishna Rau Award</b>
-                </center>
-            </div>
-            <div class="panel-body">The Rau Award will be presented in recognition of substantial contributions in the field of computer microarchitecture and compiler code generation. A certificate and a $2,000 honorarium are awarded for an outstanding, innovative contribution to microarchitecture, use of novel microarchitectural techniques or compiler/architecture interfacing.<br><br>
-                <a href="https://ieee.secure-platform.com/a/organizations/main/submissions/details/47373">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 15 June - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>IEEE CS/SEI Watts S. Humphrey Award</b>
-                </center>
-            </div>
-            <div class="panel-body">IEEE Computer Society/Software Engineering Institute Watts S. Humphrey Software Process Achievement Award is a non-competitive award offered annually. Award recipients receive an engraved commemorative plaque and make one or more presentations at appropriate practitioner and researcher community events. Award recipients also produce an SEI Technical Report describing their accomplishments, experiences, and lessons learned. The SEI helps produce this report and pays the authors an honorarium of $700 to partially offset the expense of preparing their presentation and report.<br><br>
-                <a href="https://ieee.secure-platform.com/a/organizations/main/submissions/details/47374">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 1 June - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>ACM/IEEE-CS Ken Kennedy Award</b>
-                </center>
-            </div>
-            <div class="panel-body">Established in memory of Ken Kennedy, the founder of Rice University's nationally ranked computer science program and one of the world's foremost experts on high-performance computing. A certificate and $5,000 honorarium are awarded jointly by the ACM and the IEEE Computer Society for outstanding contributions to programmability or productivity in high-performance computing together with significant community service or mentoring contributions.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/326/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 15 June - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Seymour Cray Computer Engineering Award</b>
-                </center>
-            </div>
-            <div class="panel-body">Established in late 1997. A crystal memento, illuminated certificate, and $10,000 honorarium are awarded to recognize innovative contributions to high performance computing systems that best exemplify the creative spirit demonstrated by Seymour Cray.<br><br>
-                <a href="https://https//ieee.secure-platform.com/a/solicitations/326/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 15 June - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Sidney Fernbach Award</b>
-                </center>
-            </div>
-            <div class="panel-body">Established in 1992 in memory of Sidney Fernbach, one of the pioneers in the development and application of high performance computers for the solution of large computational problems. A certificate and $2,000 are awarded for outstanding contributions in the application of high performance computers using innovative approaches. Nominations are solicited from the SC conference committee. <br><br>
-                <a href="https://https//ieee.secure-platform.com/a/solicitations/326/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 15 June - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Charles Babbage Award</b>
-                </center>
-            </div>
-            <div class="panel-body">In recognition of significant contributions in the field of parallel computation. This award covers all aspects of parallel computing including computational aspects, novel applications, parallel algorithms, theory of parallel computation, parallel computing technologies, among others.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/324/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 1 October - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-         <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Computer Entrepreneur Award</b>
-                 </center>
-            </div>
-            <div class="panel-body">A sterling silver chalice is awarded to managers and leaders that are responsible for the growth of some segment of the computer industry, or technical managers whose entrepreneurial leadership built the computer industry. The efforts must have taken place over fifteen years earlier, and the industry effects must be generally and openly visible<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/324/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 1 October - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Women of ENIAC Computer Pioneer Award </b>
-                </center>
-            </div>
-            <div class="panel-body">A bronze medal is presented for significant contributions to concepts and developments in the electronic computer field which have clearly advanced the state of the art in computing. The contributions must have taken place fifteen or more years earlier.  Up to two awards, counting co-awardees as a single award, may be presented annually.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/324/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 1 October - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Mary Kenneth Keller Computer Science & Engineering Undergraduate Teaching Award</b>
-                </center>
-            </div>
-            <div class="panel-body">A plaque, certificate and a stipend of $2,000 is awarded to recognize outstanding contributions to undergraduate education through both teaching and service and for helping to maintain interest, increase the visibility of the society, and make a statement about the importance with which we view undergraduate education.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/324/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 1 October - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Harry H. Goode Memorial Award</b>
-                </center>
-            </div>
-            <div class="panel-body">A bronze medal and $2,000 are awarded by the Computer Society on the basis of achievements in the information processing field which are considered either a single contribution of theory, design, or technique of outstanding significance, or the accumulation of important contributions on theory or practice over an extended time period, the total of which represent an outstanding contribution.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/324/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 1 October - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Hans Karlsson Standards Award</b>
-                </center>
-            </div>
-            <div class="panel-body">Established in 1992 in memory of Hans Karlsson, chairman and father of the IEEE 1301 family of standards. A plaque and $2,000 honorarium is presented in recognition of outstanding skills and dedication to diplomacy, team facilitation and joint achievement, in the development or promotion of standards in the computer industry where individual aspirations, corporate competition, and organizational rivalry could otherwise be counter to the benefit of society. Eligibility is limited to present or past participants in IEEE CS Standards activities.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/324/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 1 October - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Harlan D. Mills Award</b>
-                </center>
-            </div>
-            <div class="panel-body">Established in Harlan D. Mills’ name to recognize researchers and practitioners who have demonstrated long-standing, sustained, and impactful contributions to software engineering practice and research through the development and application of sound theory. This technical award was first given in 1999. The award consists of a $3,000 honorarium, museum-quality memento, and a possible invited talk during the week of the annual International Conference on Software Engineering (ICSE), co-sponsored by IEEE Computer Society Technical Council on Software Engineering (TCSE).<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/324/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 1 October - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Richard E. Merwin Award for Distinguished Service</b>
-                </center>
-            </div>
-            <div class="panel-body">The highest level volunteer service award of the Computer Society. A bronze medal and $5,000 are given for outstanding service to the profession at large, including significant service to the Computer Society or its predecessor organizations.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/324/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 1 October - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>The Edward J. McCluskey Technical Achievement Award</b>
-                </center>
-            </div>
-            <div class="panel-body">A certificate and $2,000 honorarium are presented for outstanding and innovative contributions to the fields of computer and information science and engineering or computer technology, usually within the past ten, and not more than fifteen years. Up to four awards may be presented annually.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/324/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 1 October - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Taylor L. Booth Education Award</b>
-                </center>
-            </div>
-            <div class="panel-body">bronze medal and $5,000 honorarium are awarded for an outstanding record in computer science and engineering education. The individual must meet two or more of the following criteria in the computer science and engineering field: 1. Achieving recognition as a teacher of renown. 2. Writing an influential text. 3. Leading, inspiring or providing significant education content during the creation of a curriculum in the field. 4. Inspiring others to a career in computer science and engineering education.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/324/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 1 October - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>W. Wallace McDowell Award </b>
-                </center>
-            </div>
-            <div class="panel-body">A bronze medal and $2,000 honorarium are presented for outstanding recent theoretical, design, educational, practical, or other similar innovative contributions that fall within the scope of Computer Society interest.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/324/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Deadline: 1 October - 11:59 PM EDT</p>
-                </center>
-            </div>
-        </div>
-    
-        <center><h2><b>Computer Society Service Awards</b></h2></center>
-        
-        <br><br>
-    
-
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Certificate of Appreciation</b>
-                </center>
-            </div>
-            <div class="panel-body">This certificate is awarded for creditable service to any Society activity or program.  Awards signed by the function chair certify the function's appreciation for services performed by individuals. Areas of contribution would include service with a conference organizing or program committee. It can be given to subcommittee members in lieu of a letter of appreciation.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/269/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Nominations accepted throughout the year</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Continuous Service Certificate</b>
-                </center>
-            </div>
-            <div class="panel-body">This certificate is awarded for ongoing credible service to any Society activity or program. This is intended to recognize and encourage the ongoing involvement of volunteers in Society programs. The initial certificate may be awarded after three years of continuous service. Service may be within a single role over multiple years, or reflect changes of roles within the Society. This is comparable to multiple Certificates of Appreciation signed at the presidential level.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/269/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Nominations accepted throughout the year</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>T. Michael Elliott Distinguished Service Certificate</b>
-                </center>
-            </div>
-            <div class="panel-body">Named after the Computer Society’s first executive director, this certificate is the highest service award in recognition for long and distinguished service to the IEEE Computer Society at a level of dedication and achievement rarely demonstrated. Often includes service in several capacities, and positions of significant Society responsibility, with contribution levels justifying multiple Meritorious Service Certificates or higher. Areas of contributions might include initiating a Society program or conference, continuing officership in the Computer Society, or long-term and active service on Society committees.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/269/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Nominations accepted throughout the year</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Harry Hayman Award for Distinguished Staff Achievement</b>
-                </center>
-            </div>
-            <div class="panel-body">A plaque and $5,000 honorarium are presented for long and distinguished service of an exemplary nature in the performance of duties over and above those called for as a regular employee of the Society. This is the highest service award given to an active member of the Computer Society staff.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/269/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Nominations accepted throughout the year</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Meritorious Service Certificate</b>
-                </center>
-            </div>
-            <div class="panel-body">The Meritorious Service Certificate is the second highest level service certificate. A certificate is given for meritorious service to an IEEE Computer Society-sponsored activity. Qualification is enhanced by the level and number of contributions, excellence, dedication, and tenure of service. Examples are: any significant role in one activity such as an editorship, committee or conference support of unusual and/or continuing nature, and service as a Computer Society officer, committee or conference general or program chair<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/269/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Nominations accepted throughout the year</p>
-                </center>
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Outstanding Contribution Certificate</b>
-                </center>
-            </div>
-            <div class="panel-body">The Outstanding Contribution Certificate is the third highest level service certificate. Unlike the Distinguished Service and Meritorious Service Certificates, this certificate is given for a specific achievement of major value and significance to the IEEE Computer Society. The achievement should be a specific, concisely characterized accomplishment, as opposed to a collection of different efforts. Examples are: the successful launching of a major conference series, a specific publication, standards and model curricula. A group OC award may be given for a major contribution in which a number of volunteers each made significant contributions. Certificates bearing all names would be awarded.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/269/home">Apply now . . .</a>
-                <center>
-                    <p id="deadline">Nominations accepted throughout the year</p>
-                </center>
-            </div>
-        </div>
-    
-        <center><h2><b>Computer Society Chapter Recognition Programs</b></h2></center>
-        
-        <br><br>
-    
-
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Distinguished Visitors Program</b>
-                </center>
-            </div>
-            <div class="panel-body">The program provides professional and student chapters with direct access to top technology leaders and innovators from every sector of the computing industry.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/home/131">Apply now . . .</a>
-               <!--  <center>
-                    <p id="deadline">Nominations accepted throughout the year</p>
-                </center> -->
-            </div>
-        </div>
-        <div class="panel" data-aos="fade-up" data-aos-duration="700">
-            <div class="panel-heading">
-                <center>
-                    <b>Outstanding Chapter Award</b>
-                </center>
-            </div>
-            <div class="panel-body">This award recognizes the Computer Society professional section chapter and student branch chapter that are judged as having provided their membership with the best overall membership experience.<br><br>
-                <a href="https://ieee.secure-platform.com/a/solicitations/home/129">Apply now . . .</a>
-               <!--  <center>
-                    <p id="deadline">Nominations accepted throughout the year</p>
-                </center> -->
-            </div>
-        </div>
-    </div>
-    
-    <br><br>
-    
-    <center>
-        <a href="http://www.computer.org">http://www.computer.org</a>
-    </center>
-  
-  <br><br><br>
-  <script>
-        AOS.init();
-    </script>
 </body>
+</html>
