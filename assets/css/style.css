@@ -379,7 +379,18 @@ section {
   padding-bottom: 40px;
 }
 
-.section-title, .section-title-1 h2 {
+.section-title h2 {
+  font-size: 38px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+.section-title-1 h2 {
   font-size: 38px;
   font-weight: 500;
   padding: 0;
