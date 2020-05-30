@@ -553,7 +553,9 @@ parallax
 */
 
 
-.text{
+
+@media (min-width:450px){
+  .text{
  position: absolute;
  top: 300px;
   color: #fff;
@@ -561,8 +563,23 @@ parallax
   font-size: 48px;
   font-weight: 700;
   text-align: center;
-  left: 20%;
+  margin-left: 300px;
 }
+}
+@media (max-width: 400px){
+
+  .text{
+ position: absolute;
+ top: 300px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 20px;
+}
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
