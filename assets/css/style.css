@@ -630,7 +630,7 @@ parallax
 # Testimonials
 --------------------------------------------------------------*/
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   .testimonials .testimonial-item {
   /*box-sizing: content-box;*/
   height: 350px;
@@ -649,7 +649,7 @@ parallax
 }
 
 }
-
+@media (min-width:450px){
 .testimonials .testimonial-item {
   /*box-sizing: content-box;*/
   height: 250px;
@@ -666,6 +666,7 @@ parallax
   border-radius: 75px;
   float: left;
   margin: 0 10px 0 0;
+}
 }
 
 .testimonials .testimonial-item h3 {
