@@ -633,7 +633,7 @@ parallax
 @media (max-width: 400px) {
   .testimonials .testimonial-item {
   /*box-sizing: content-box;*/
-  height: 350px;
+  height: 300px;
   width: 100%;
   padding: 20px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
@@ -704,6 +704,7 @@ parallax
   font-style: italic;
   margin: 15px 0 0 0;
   padding: 0;
+  text-align: justify;
 }
 
 
