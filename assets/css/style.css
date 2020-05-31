@@ -629,13 +629,6 @@ parallax
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-@media (max-width: 400px){
-.testimonials .testimonial-item {
-  /*box-sizing: content-box;*/
-  height: 300px;
-
-}}
-
 .testimonials .testimonial-item {
   /*box-sizing: content-box;*/
   height: 250px;
