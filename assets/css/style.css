@@ -979,13 +979,7 @@ parallax
   padding: 10px;
   border-radius: 15px;
 }
-.pic img {
-  transition: ease-in-out 0.3s;
-}
 
-.pic:hover img {
-  transform: scale(1.1);
-}
 
 .cont h4 {
   font-weight: 700;
@@ -994,6 +988,13 @@ parallax
   color: #556270;
 }
 
+}
+.pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.pic:hover img {
+  transform: scale(1.1);
 }
 .pic{
   float: left;
