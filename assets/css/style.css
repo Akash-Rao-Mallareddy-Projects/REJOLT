@@ -632,9 +632,9 @@ parallax
 .testimonials .testimonial-item {
   /*box-sizing: content-box;*/
   height: 250px;
-  width: 540px;
+  width: 100%;
   padding: 20px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
   position: relative;
   background: #fff;
 }
