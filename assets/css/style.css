@@ -633,13 +633,9 @@ parallax
 .testimonials .testimonial-item {
   /*box-sizing: content-box;*/
   height: 300px;
-  width: 360px;
-  padding: 20px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  position: relative;
-  background: #fff;
+
 }}
-@media (min-width:450px){
+
 .testimonials .testimonial-item {
   /*box-sizing: content-box;*/
   height: 250px;
@@ -648,7 +644,6 @@ parallax
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   background: #fff;
-}
 }
 
 .testimonials .testimonial-item .testimonial-img {
