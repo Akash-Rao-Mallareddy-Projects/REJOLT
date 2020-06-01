@@ -17,6 +17,30 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+/* -------------------
+      Scrollbar
+-----------------------*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ddd; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  box-shadow: 0 1px 10px;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #eee; 
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
