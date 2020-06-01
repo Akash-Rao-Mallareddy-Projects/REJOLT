@@ -1189,6 +1189,7 @@ parallax
   display: block;
   background-color: #fff;
   border-top: 7px solid #19beb6; 
+  width: 100%;
 }/*
 .paris { border-top: 7px solid #df9801; }
 */
