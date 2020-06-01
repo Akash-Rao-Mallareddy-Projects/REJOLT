@@ -911,6 +911,11 @@ parallax
   overflow: hidden;
 }
 
+.team .member .member-img img{
+  height: 320px;
+  width: 100%;
+}
+
 .team .member .social {
   position: absolute;
   left: 0;
