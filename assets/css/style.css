@@ -17,10 +17,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.container-1{
-  margin-left: 20px;
-}
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -43,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo {
   font-size: 28px;
-  margin: 0;
+  margin-left: 30px;
   padding: 0;
   line-height: 1;
   font-weight: 700;
