@@ -912,7 +912,7 @@ parallax
 }
 @media (max-width: 400px) {
 .team .member .member-img img{
-  height: 350px;
+  height: 450px;
   width: 100%;
 }
 }
