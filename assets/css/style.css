@@ -581,10 +581,10 @@ parallax
 
 
 
-@media (min-width:450px){
+@media (min-width:510px){
   .text{
  position: absolute;
- top: 300px;
+ top: 50%;
   color: #fff;
   margin-bottom: 20px;
   font-size: 48px;
@@ -593,11 +593,11 @@ parallax
   margin-left: 300px;
 }
 }
-@media (max-width: 400px){
+@media (max-width: 500px){
 
   .text{
  position: absolute;
- top: 200px;
+ top: 50%;
   color: #fff;
   margin-bottom: 20px;
   font-size: 48px;
