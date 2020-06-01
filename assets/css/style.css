@@ -1188,7 +1188,7 @@ parallax
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   display: block;
   background-color: #fff;
-  border-top: 7px solid #19beb6; 
+  border-top: 7px solid #d9232d; 
   width: 100%;
   margin-bottom: 30px;
 }
@@ -1235,7 +1235,7 @@ parallax
 
 .title {
   padding: 0 0 0 5px;
-  border-left: 2px solid #19beb6;
+  border-left: 2px solid #d9232d;
   margin: 25px 0px;
 }
 .title h3 {
@@ -1252,7 +1252,7 @@ parallax
   padding-right: 0px;
 }
 .location i { 
-  color:#19beb6;
+  color: #d9232d;
   font-size: 20px;
 
    }
