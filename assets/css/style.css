@@ -30,36 +30,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 12px 0;
 }
 
 #header.header-inner-pages {
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* #header .logo {
+#header .logo {
   font-size: 28px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
   text-transform: uppercase;
-} */
+}
 
 #header .logo a {
   color: #556270;
 }
 
-#header img {
+#header .logo img {
   max-height: 40px;
 }
-/* .hydlogo{
-  height: 40px;
+.hydlogo, .cslogo{
+  max-height: 40px;
 }
-#header .cslogo{
-  height:40px;
-} */
 @media (max-width: 992px) {
   #header {
     padding: 12px 0;
