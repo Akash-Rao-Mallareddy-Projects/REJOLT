@@ -955,7 +955,7 @@ parallax
 @media (min-width: 450px) {
 .team .member .member-img img{
   height: 320px;
-  width: 100%;
+  width: 300px;
 }
 }
 
