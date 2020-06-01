@@ -1262,3 +1262,24 @@ parallax
   font-weight: bold;
   margin-left: 10px;
 }
+
+
+.date{
+  color: white;
+  position: absolute;
+  text-align: center;
+  right: 20px;
+}
+
+.date-box{
+  height: 30px;
+  width: 250px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  text-align: center;
+
+}
+.date i{
+  margin-right: 10px;
+}
