@@ -50,16 +50,16 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo a {
   color: #556270;
 }
-/* 
-#header .logo img {
+
+#header img {
   max-height: 40px;
-} */
-.hydlogo{
+}
+/* .hydlogo{
   height: 40px;
 }
 #header .cslogo{
   height:40px;
-}
+} */
 @media (max-width: 992px) {
   #header {
     padding: 12px 0;
