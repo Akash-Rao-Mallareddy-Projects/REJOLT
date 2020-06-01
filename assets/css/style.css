@@ -892,6 +892,43 @@ parallax
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+#team .section-title{
+  text-align: center;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+#team .section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #45505b;
+}
+
+#team .section-title h2::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 100px);
+}
+
+#team .section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #d9232d;
+  bottom: -3px;
+  left: calc(50% - 50px);
+}
 .team {
   background: #fff;
   padding: 60px 0;
@@ -918,7 +955,7 @@ parallax
 @media (min-width: 450px) {
 .team .member .member-img img{
   height: 320px;
-  width: 100%;
+  width: 300px;
 }
 }
 
