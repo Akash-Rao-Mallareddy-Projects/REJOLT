@@ -1190,7 +1190,9 @@ parallax
   background-color: #fff;
   border-top: 7px solid #19beb6; 
   width: 100%;
-}/*
+  margin-bottom: 30px;
+}
+/*
 .paris { border-top: 7px solid #df9801; }
 */
 
