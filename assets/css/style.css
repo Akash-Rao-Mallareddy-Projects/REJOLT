@@ -910,11 +910,21 @@ parallax
   position: relative;
   overflow: hidden;
 }
+@media (max-width: 400px) {
+.team .member .member-img img{
+  height: 350px;
+  width: 100%;
+}
+}
 
+@media (min-width: 450px) {
 .team .member .member-img img{
   height: 320px;
   width: 100%;
 }
+}
+
+
 
 .team .member .social {
   position: absolute;
