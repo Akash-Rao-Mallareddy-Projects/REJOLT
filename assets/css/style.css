@@ -1313,11 +1313,19 @@ parallax
 ---------------------------------------
             awards
 ---------------------------------------*/
+
+@media (max-width: 500px) {
+  #bgimg img{
+    width: 100%;
+    height: 200px;
+  }
+}
+@media (min-width: 700px) {
 #bgimg img{
      width: 100%;
      height: 500px;
 }
-
+}
 
 .awards { border-top: 7px solid #d9232d; }
 .awards .title {
