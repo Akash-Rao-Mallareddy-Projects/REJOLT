@@ -1314,7 +1314,15 @@ parallax
             awards
 ---------------------------------------*/
 
-@media (max-width: 500px) {
+
+#bgimg img{
+    width: 100%;
+/*     height: 300px; */
+  margin: auto;
+  }
+}
+
+/* @media (max-width: 500px) {
   #bgimg img{
     width: 100%;
     height: 300px;
@@ -1325,7 +1333,7 @@ parallax
      width: 100%;
      height: 500px;
 }
-}
+} */
 
 .awards { border-top: 7px solid #d9232d; }
 .awards .title {
