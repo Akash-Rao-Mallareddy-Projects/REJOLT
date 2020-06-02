@@ -1307,3 +1307,41 @@ parallax
 .date i{
   margin-right: 10px;
 }
+
+
+/*
+---------------------------------------
+            awards
+---------------------------------------*/
+
+.csa{
+            background-color: #f80036; 
+            color: white;
+            width: 100%;
+        }
+        .panel-body{
+            font-size: 16px;
+        }
+        .panel-heading{
+            background-color: #f80036;
+            color: white;
+        }
+        .panel-heading h3{
+            font-weight: bold;
+            font-size: 30px;
+        }
+        #deadline{
+            font-weight: bold;
+            color: red;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .panel{
+            border-color: #f80036;
+            transition: transform .4s;
+            margin-bottom: 2rem;
+        }
+        .panel:hover{
+            box-shadow: 10px 10px 10px black;
+            transform: scale(1.05);
+        }
