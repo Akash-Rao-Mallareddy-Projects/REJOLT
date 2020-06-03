@@ -1351,10 +1351,14 @@ parallax
   margin: auto;
 }
 
+.awards .title1 h3 {
+  color: #d9232d;
+  font-size: 18px;
+  margin: auto;
+}
 .awards a{
   color: #d9232d;
 }
 .awards p{
   text-align: justify;
-  font-size: 12px;
 }
