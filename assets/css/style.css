@@ -1335,6 +1335,7 @@ parallax
 } */
 
 .awards { border-top: 7px solid #d9232d; }
+.video { border-top: none; }
 .awards .title {
   padding: 0 0 0 5px;
   border-left: 2px solid #d9232d;
@@ -1376,11 +1377,11 @@ parallax
 #video iframe{
   height: 390px;
 }
-#video .box {
+/* #video .box {
   float: left;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   display: block;
   background-color: #fff;
   width: 100%;
   margin-bottom: 30px;
-}
+} */
