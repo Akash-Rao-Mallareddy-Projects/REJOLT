@@ -1373,9 +1373,15 @@ parallax
   padding: 15px;
 
 }
-
+@media (min-width: 700px) {
 #video iframe{
   height: 390px;
+}
+}
+@media (max-width: 500px) {
+#video iframe{
+  height: 300px;
+}
 }
 /* #video .box {
   float: left;
