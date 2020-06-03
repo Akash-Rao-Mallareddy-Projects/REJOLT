@@ -1373,14 +1373,7 @@ parallax
 
 }
 
-@media (min-width: 700px) {
 #video iframe{
   height: 390px;
 }
-}
 
-@media (max-width: 500px) {
-  #video iframe{
-  height: 250px;
-}
-}
