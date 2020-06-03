@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   background: white;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 10px 0;
   box-shadow: 0 2px 30px grey;
 }
 
@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo {
   font-size: 28px;
-  margin-left: 30px;
+  margin-left: 20px;
   padding: 0;
   line-height: 1;
   font-weight: 700;
@@ -75,10 +75,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 30px;
 }
 .hydlogo, .cslogo{
-  max-height: 40px;
+  max-height: 30px;
 }
 @media (max-width: 992px) {
   #header {
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
-  padding: 12px 0 12px 28px;
+  padding: 12px 0 12px 20px;
 }
 
 .nav-menu a {
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: #556270;
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
 }
