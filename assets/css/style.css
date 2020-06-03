@@ -1356,6 +1356,10 @@ parallax
   font-size: 18px;
   margin: auto;
 }
+.awards .title1 h4 {
+  font-size: 14px;
+  margin: 5px
+}
 .awards a{
   color: #d9232d;
 }
