@@ -1340,6 +1340,10 @@ parallax
   border-left: 2px solid #d9232d;
   margin: 25px 0px;
 }
+.awards .title1 {
+  padding: 0 0 0 5px;
+  margin: 25px 0px;
+}
 
 .awards .title h3 {
   color: #d9232d;
