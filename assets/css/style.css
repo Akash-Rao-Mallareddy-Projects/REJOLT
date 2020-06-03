@@ -1345,6 +1345,7 @@ parallax
   color: #d9232d;
   font-size: 18px;
   margin: 5px;
+  text-align: left;
 }
 
 .awards a{
