@@ -1350,3 +1350,6 @@ parallax
 .awards a{
   color: #d9232d;
 }
+.avared p{
+  text-align: justify;
+}
