@@ -29,33 +29,20 @@
 
 
   	<!-- Template Main CSS File -->
-  	<link href="assets/css/style.css" rel="stylesheet">
+ <!--  	<link href="assets/css/style.css" rel="stylesheet"> -->
+    <link href="assets/css/header.css" rel="stylesheet">
+    <link href="assets/css/footer.css" rel="stylesheet">
+    <link href="assets/css/breadcrumbs.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/index.css" rel="stylesheet">
+    <link href="assets/css/hero.css" rel="stylesheet">
+     <link href="assets/css/mobile.css" rel="stylesheet">
+
+
 
   	<!-- =======================================================
   	* Author: pranaykashyap@ieee.org.com
   	======================================================== -->
-
-    <style>
-        .parallax {
-  /* The image used */
-  background:
-  linear-gradient(
-      rgba(20, 20, 20, 0.6), 
-      rgba(20, 20, 20, 0.6)
-    ),
-    url(assets/img/slide/slide-2.jpg);
-  /* Set a specific height */
-  min-height: 700px; 
-  width: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-</style>
 </head>
 <body>
 	<header id="header" class="fixed-top ">
@@ -100,116 +87,81 @@ background-position: center center;
     	</div>
   	</header><!-- End Header -->
 
-    <div class="parallax"><h2 class="animate__animated animate__fadeInDown text">Welcome to <br><span>IEEE Computer Society Chapter</span></h2></div>
+      <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>IEEE Computer Society Hyderabad Section</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>IEEE Computer Society Hyderabad Section</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+
+
+   <section id="hero">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Welcome to</h2>
+              <h2 class="animate__animated animate__fadeInUp">IEEE Computer Society Chapter</h2>
+              <!-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> -->
+            </div>
+          </div>
+        </div>
+
+      <<div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Welcome to </h2>
+              <h2 class="animate__animated animate__fadeInUp">IEEE Computer Society Chapter</h2>
+              <!--  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <!-- <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Welcome to </h2>
+              <h2 class="animate__animated animate__fadeInUp">IEEE Computer Society Chapter</h2> -->
+              <!-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> -->
+            <!-- </div>
+          </div>
+        </div>
+ -->
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+  </section>
+  <!-- End Hero -->
+                    
   	<main id="main">
   		<!-- ======= About Section ======= -->
   		<section id="about" class="about">
-            <div class="container">
-  	     	    <div class="section-title">
-                    <h2>IEEE</h2>
-                </div>
-	            <div class="row content">
-    	      	    <div class="col">
-                        <p>IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences, technology standards, and professional and educational activities.The following information provides an overview of IEEE offerings and services.</p>
-                        <ul>
-                            <li>
-                                <i class="ri-check-double-line"></i>More than 419,000 members in more than 160 countries, more than 50 percent of whom are from outside the United States.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>More than 124,000 Student members.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>342 Sections in ten geographic Regions worldwide.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>1,834 Chapters that unite local members with similar technical interests.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>3,422 Student Branches at colleges and universities in over 100 countries.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>2,600 Student Branch chapters of IEEE technical societies.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>568 affinity groups; IEEE affinity groups are non-technical sub-units of one or more Sections or a Council. The affinity group patent entities are the IEEE-USA Consultants' Network, Young Professionals (YP), Women in Engineering (WIE), Life Members (LM), and IEEE Entrepreneurship.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>39 technical Societies and seven technical councils representing the wide range of IEEE technical interests.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>More than 5 million documents in the IEEE Xplore® digital library, with more than 12 million downloads each month.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>Has more than 1,800 conferences in IEEE Xplore.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>Has over 1,200 active standards and more than 650 standards under development.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>Publishes approximately 200 transactions, journals, and magazines.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>Sponsors more than 1,900 conferences in 103 countries.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>Partnering with more than 1,400 non-IEEE entities globally.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>Attracting more than 547,000 conference attendees.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>Publishing more than 1,800 conference proceedings via IEEE Xplore.
-                            </li>
-                            <br>
-                            <p>*Data current as of 31 December 2019. This information is updated annually.</p>
-                        </ul>
-	          	    </div>
-        	    </div>
-      	    </div>
-            <br><br><br>
-    	    <div class="container">
-    	        <div class="section-title">
-                    <h2>IEEE Computer Society</h2>
-                </div>
-                <div class="row content">
-                    <div class="col">
-                        <p>The IEEE Computer Society is the premier source for information, inspiration, and collaboration in computer science and engineering. Connecting members worldwide, the Computer Society empowers the people who advance technology by delivering tools for individuals at all stages of their professional careers. Our trusted resources include international conferences, peer-reviewed publications, a robust digital library, globally recognized standards, and continuous learning opportunities.</p>
-                        <br>
-                        <p>The IEEE Computer Society offers an array of products and services to keep you and your organization at the top of technology: 200+ conferences, a digital library (CSDL) with 800k articles, peer-reviewed magazines and journals, online education, and a solutions center.</p>
-                        <ul>
-                            <li>
-                                <i class="ri-check-double-line"></i>The Premier Organization for Computing Professionals.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>A Society Dedicated to Empowering Technology Leaders.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>More than 70 Years of Innovation and Leadership.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <br><br><br>
-            <div class="container">
-                <div class="section-title">
-                    <h2>IEEE Hyderabad Section</h2>
-                </div>
-                <div class="row content">
-                    <div class="col">
-                        <p>The IEEE Hyderabad Section is one of the most active sections of IEEE in India. IEEE was formally introduced in Hyderabad, in June 1981, when a group of engineers in Hyderabad decided to form an IEEE sub-section here. This sub-section was rapidly elevated to a full section, in 1984 (the year of IEEE Centenary celebrations). All IEEE members residing in the states of Telangana, India and Andhra Pradesh, India are automatically members of the IEEE Hyderabad Section.</p>
-                        <ul>
-                            <li>
-                                <i class="ri-check-double-line"></i>Has 16 chapters.
-                            </li>
-                            <li>
-                                <i class="ri-check-double-line"></i>Has 3 Affinity Groups and our Section.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <br><br><br>
             <div class="container">
                 <div class="section-title">
                     <h2>IEEE Hyderabad Section Computer Society Chapter</h2>
