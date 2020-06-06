@@ -54,8 +54,9 @@
   $(document).ready(function(){
 	  var jsonurl = "https://pranaykashyap.github.io/cshyd/studentbranch.json";
 	  console.log(jsonurl);
-    $.getJSON(jsonurl, function(data){
-//       var sb_data = '';
+    $.getJSON(jsonurl, function(data){ 
+	    console.log(data);
+// 	    var sb_data = '';
 	    
 //       $.each(data, function(key, value){
 //         sb_data += '<tr>';
@@ -63,8 +64,7 @@
 //         sb_data += '<td>'+value.name+'</td>';
 //         sb_data += '<td>'+value.count+'</td>';
 //         sb_data += '</tr>';
-	      console.log(data);
-
+// 	      console.log(data);
 //       });
 //       $('#sbtable').append(sb_data);
     });
