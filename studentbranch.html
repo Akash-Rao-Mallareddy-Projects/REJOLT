@@ -52,7 +52,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script>
   $(document).ready(function(){
-    $.getJSON("https://pranaykashyap.github.io/cshyd/studentbranch.json", function(data){
+	  var jsonurl = "https://pranaykashyap.github.io/cshyd/studentbranch.json";
+	  consol.log(jsonurl);
+    $.getJSON(jsonurl, function(data){
 //       var sb_data = '';
 	    
 //       $.each(data, function(key, value){
