@@ -199,6 +199,7 @@
   $(document).ready(function(){
     $.getJSON("studentbranch.json", function(data){
       var sb_data = '';
+	    console.log(sb_data)
       $.each(data, function(key, value){
         sb_data += '<tr>';
         sb_data += '<td>'+value.rank+'</td>';
