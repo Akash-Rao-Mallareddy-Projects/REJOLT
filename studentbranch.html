@@ -48,6 +48,27 @@
   	<!-- =======================================================
   	* Author: pranaykashyap@ieee.org.com
   	======================================================== -->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+  $(document).ready(function(){
+    $.getJSON("studentbranch.json", function(data){
+      var sb_data = '';
+	    
+      $.each(data, function(key, value){
+        sb_data += '<tr>';
+        sb_data += '<td>'+value.rank+'</td>';
+        sb_data += '<td>'+value.name+'</td>';
+        sb_data += '<td>'+value.count+'</td>';
+        sb_data += '</tr>';
+	      console.log(sb_data)
+
+      });
+      $('#sbtable').append(sb_data);
+    });
+
+  });
+</script>
 
 
 
@@ -195,22 +216,4 @@
 
 </body>
 </html>
-<script>
-  $(document).ready(function(){
-    $.getJSON("studentbranch.json", function(data){
-      var sb_data = '';
-	    
-      $.each(data, function(key, value){
-        sb_data += '<tr>';
-        sb_data += '<td>'+value.rank+'</td>';
-        sb_data += '<td>'+value.name+'</td>';
-        sb_data += '<td>'+value.count+'</td>';
-        sb_data += '</tr>';
-	      console.log(sb_data)
 
-      });
-      $('#sbtable').append(sb_data);
-    });
-
-  });
-</script>
