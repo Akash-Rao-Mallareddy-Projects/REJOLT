@@ -1,4 +1,4 @@
-[
+
 	{
 		"id":1,
 		"rank":1,
@@ -10,5 +10,4 @@
 		"rank":2,
 		"name": "GITAM University",
 		"count": 155
-	},
-]
+	}
