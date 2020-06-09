@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Student Branch Details</title>
+	<title>IEEE Computer Society Chapter</title>
 	<meta charset="utf-8">
   	<meta content="width=device-width, initial-scale=1.0" name="viewport">
   	<meta content="" name="descriptison">
@@ -43,7 +43,15 @@
     <link href="assets/css/footer.css" rel="stylesheet">
     <link href="assets/css/hero.css" rel="stylesheet">
     <link href="assets/css/mobile.css" rel="stylesheet">
+    <style>
+</style>
 
+<script type="text/javascript">
+function show_hide_row(row)
+{
+ $("#"+row).toggle();
+}
+</script>
 
   	<!-- =======================================================
   	* Author: pranaykashyap@ieee.org.com
@@ -77,12 +85,12 @@
           <li class="drop-down"><a href="#">IEEE</a>
             <ul>
                     <li><a href="ieee.html">IEEE</a></li>
-                          <li class="active"><a href="ieeecs.html">IEEE Computer Society</a></li>
+                          <li><a href="ieeecs.html">IEEE Computer Society</a></li>
                           <li><a href="ieeehyd.html">IEEE Hyderabad Section</a></li>
                           <li><a href="https://ieee-collabratec.ieee.org/app/workspaces/6834/activities">Collabratec</a></li>
-                          <li><a href="https://ieeextreme.org/">IEEE Xtreme</a></li>
-              <li><a href="https://www.ieeemadc.org/">IEEE madC</a></li>
-              <li><a href="https://www.ieee.org/about/ethics/competition.html#:~:text=About%20the%20competition,-The%20IEEE%20Student&text=It%20was%20developed%20for%20use,analysis%20by%20teams%20of%20students.">IEEE Student Ethics</a></li>
+                          <li><a href="xtreme.html">IEEE Xtreme</a></li>
+              <li><a href="madc.html">IEEE madC</a></li>
+              <li><a href="studentethics.html">IEEE Student Ethics</a></li>
             </ul>
           </li>
                 <li><a href="awards.html">Awards</a></li>
@@ -120,16 +128,119 @@
                 </div>
               </div>
               <div class="container">
-                 <table class="table" id="sbtable">
+                 <div class="table-responsive" id="wrapper">
+                  <table class="table" id="table_detail">
                     <thead>
                       <tr>
-                          <th>S. No</th>
-                          <th>Student Branch Name</th>
-                          <th>Count</th>
+                        <th scope="col">Chapter/ College</th>
+                        <th scope="col">Chapter Advisor Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Chapter Chair Name</th>
                       </tr>
                     </thead>
+
+                    <tr>
+                      <td>Anurag university</td>
+                      <td>Durga bhavani Adla</td>
+                      <td>durgabhavanicse@cvsr.ac.in</td>
+                      <td>Yeluri Kushal Vidya Mohanji</td>
+                    </tr>
+
+                    <tr>
+                      <td>Chaitanya Bharathi Institute of Technology</td>
+                      <td>G. Mallikharkun Rao</td>
+                      <td>mallikharjunag@gmail.com</td>
+                      <td>Hemanth. K</td>
+                    </tr>
+
+                      <tr>
+                        <td>Geethanjali College of Engineering and Technology</td>
+                        <td>Dr.G. Soma Sekhar</td>
+                        <td>somasekhar@ieee.org</td>
+                        <td>Saiteja Goud K</td>
+                      </tr>
+
+                    <tr>
+                      <td>Gokaraju Rangaraju Institute of Engineering and Technology</td>
+                      <td>Dr. Y. Vijayalata</td>
+                      <td>vijaya@ieee.org</td>
+                      <td>Ananya Thotakuri</td>
+                    </tr>
+
+                    <tr>
+                      <td>G Pulla Reddy Engineering College </td>
+                      <td>K Ishthaq Ahmed </td>
+                      <td>ishthaq@gmail.com</td>
+                      <td>N Sai Divya</td>
+                    </tr>
+
+                    <tr>
+                      <td>MVSR Engineering College</td>
+                      <td>B.Saritha</td>
+                      <td>bsaritha_cse@mvsrec.edu.in</td>
+                      <td>Sai Teja Surapur</td>
+                    </tr>
+
+                    <tr>
+                      <td>Nalla Malla Reddy Engineering College</td>
+                      <td>Voolla Mohan</td>
+                      <td>mohan.cse@nmrec.edu.in</td>
+                      <td>Shashank Thirunahari</td>
+                    </tr>
+
+                    <tr>
+                      <td>SR Engineering college Warangal</td>
+                      <td>Dr.Sandeep Kumar Vangala</td>
+                      <td>sandeepkumarvangala@ieee.org</td>
+                      <td>T.saikrishna</td>
+                    </tr>
+
+                    <tr>
+                      <td>Sreyas Institute of Engineering and Technology</td>
+                      <td>Dr.Kantipudi M.V.V Prasad</td>
+                      <td>mvvprasad@sreyas.ac.in</td>
+                      <td>Chava Dheeraj</td>
+                    </tr>
+
+                    <tr>
+                      <td>Sri Venkateswara College of Engineering</td>
+                      <td>Dr. P. E. S. N. Krishna prasad</td>
+                      <td>kpponnekanti@ieee.org</td>
+                      <td>Yuvana Rani. G</td>
+                    </tr>
+
+                    <tr>
+                      <td>Vaagdevi Engineering College</td>
+                      <td>Moola.Ramu </td>
+                      <td>moola.ramu@gmail.com</td>
+                      <td>Sai Revanth</td>
+                    </tr>
+
+                    <tr>
+                      <td><a href="https://ieeevardhaman.org/chapters/cs">Vardhaman College of Engineering</a></td>
+                      <td>Dr. Rajanikanth Aluvalu</td>
+                      <td>rajanikanth.aluvalu@gmail.com</td>
+                      <td>M.D.N. Akash</td>
+                    </tr>
+
+                    <tr>
+                      <td>Vignana Bharathi Institute of Technology</td>
+                      <td>Mr. M. Venkateswara Rao</td>
+                      <td>Venkat2m2@gmail.com</td>
+                      <td>Ms. K. Sahithi</td>
+                    </tr>
+
+                    <tr>
+                      <td> VNR Vignana Jyothi Institute of Engineering and Technology</td>
+                      <td>Dr. B.V. Kiranmayee</td>
+                      <td>kiranmayee_bv@vnrvjiet.in</td>
+                      <td>Ankitha Gudla</td>
+                    </tr>
+
                   </table>
                 </div>
+              </div>
+
         </section>
 
     	    
