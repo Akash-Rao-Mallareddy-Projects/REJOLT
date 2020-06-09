@@ -972,14 +972,14 @@ parallax
 }
 @media (max-width: 400px) {
 .team .member .member-img img{
-  height: 370px;
+  height: 350px;
   width: 330px;
 }
 }
 
 @media (min-width: 450px) {
 .team .member .member-img img{
-  height: 320px;
+  height: 280px;
   width: 300px;
 }
 }
